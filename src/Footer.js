@@ -17,7 +17,7 @@ class Footer extends React.Component{
   showlink=(val,key)=>{
       return(
           <div>
-             <a href='#'>{val}</a> 
+             <a href='grievance-app'>{val}</a> 
           </div>
       )
   }
