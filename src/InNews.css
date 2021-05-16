@@ -1,0 +1,15 @@
+.InNews-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    /* margin-bottom: 40px; */
+}
+.InNews-item img{
+    padding: 25px 0 25px 0;
+    height: 100%;
+}
+.InNews-item img:hover{
+    cursor: pointer;
+    background-color: #274472;
+}

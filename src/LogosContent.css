@@ -1,0 +1,8 @@
+.logosContent{
+    /* width: 90%; */
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 0px 30px;
+  }

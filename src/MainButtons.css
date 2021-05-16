@@ -1,0 +1,37 @@
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    /* width: 90%; */
+    /* left: 10%; */
+    /* top: 23%; */
+    /* padding: 10px; */
+    z-index: 1;
+    background-color: #000000d1;
+}
+.buttons span{
+    padding: 10px;
+    width:17%;
+    border: none;
+    color: #fff;
+    transition: all .4s;
+    font-weight: 700;
+    text-align: center;
+    
+}
+/* .Blue{
+    background-color: #1a1af3;
+    box-shadow: 2px 2px 2px 2px #000000;
+}
+.Black{
+    background-color: #790f0f;
+    box-shadow: 2px 2px 2px 2px #000000;
+}
+.Grey{
+    background-color: #d64741;
+    box-shadow: 2px 2px 2px 2px #000000;
+} */
+.buttons span:hover{
+    cursor: pointer;
+    background-color: #274472;
+}

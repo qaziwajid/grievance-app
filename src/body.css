@@ -1,0 +1,12 @@
+.Body{
+    background-color: #fff;
+    width: 93%;
+    margin: auto;
+    /* position: relative; */
+  }
+  .fixed{
+    position: fixed;
+  width: 93%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  }

@@ -1,0 +1,11 @@
+.nav-bar-link{
+   display: flex;
+   justify-content: space-around;
+}
+.nav-item{
+    padding:10px 0px 10px 0px;
+    font-weight:600;
+}
+.nav-item:hover{
+    cursor: pointer;
+}
