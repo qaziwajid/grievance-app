@@ -87,6 +87,8 @@
         height: auto;
         text-align: center;
         padding: 7px 0 7px 0;
+        font-size: 20px;
+        line-height: 25px;
     }
     .main-text{
         font-size: 30px;
