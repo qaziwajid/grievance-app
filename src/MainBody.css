@@ -106,5 +106,11 @@
     .sub-text{
        font-size: 10px;
     }
+    .Main-image img{
+      
+       height: auto; 
+      
+    
+    }
    
 }
