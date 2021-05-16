@@ -14,3 +14,12 @@
     margin: auto;
     padding: 0 15px 0 0;
   }
+  @media  (max-width: 565px){
+    .ContactHeaderItem{
+     flex-direction: column;
+     height: auto;
+    align-items: center;
+    line-height: 20px;
+    }
+   
+}

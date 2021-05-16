@@ -42,7 +42,7 @@ class Footer extends React.Component{
     render(){
         return(
             <div className='Footer-main'>
-                <div className='Footer-image Footer-headings'>
+                <div className='Footer-image '>
                     <img src='/images/Logo111.png' alt='Not Found'></img>
                     <FooterContent FooterContent={this.state.FooterContent}/>
                 </div>

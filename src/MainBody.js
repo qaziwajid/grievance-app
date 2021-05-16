@@ -65,9 +65,6 @@ class MainBody extends React.Component {
             Amet officia labore voluptate cillum culpa.Aute irure mollit ex nisi
             id.Cupidatat excepteur magna anim dolore laboris qui ullamco ullamco
             eiusmod consectetur ea aliquip.Nisi aliquip cupidatat Lorem ea
-            fugiat ad incididunt do velit fugiat nisi aute ad.ECulpa dolore
-            culpa aliquip ex ut adipisicing excepteur nulla.Deserunt amet cillum
-            non.
           </div>
         </div>
         <div className='features'>

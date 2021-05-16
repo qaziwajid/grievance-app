@@ -7,8 +7,8 @@ class Logos extends React.Component {
     
         this.state = {
             images: [
-                { id: 1, name: "/images/logo11.png" },
-                { id: 2, name: "/images/govtl.png" },
+                { id: 'block', name: "/images/logo11.png" },
+                { id: 'none', name: "/images/govtl.png" },
                 // { id: 3, name: 'Admissions', active: false },
                 // { id: 4, name: 'Grievances', active: false },
                 // { id: 5, name: 'Departments', active: false },

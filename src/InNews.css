@@ -13,3 +13,8 @@
     cursor: pointer;
     background-color: #274472;
 }
+@media  (max-width: 875px){
+    .InNews-section{
+       overflow-x: scroll;
+    }
+}

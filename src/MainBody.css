@@ -77,3 +77,34 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
 }
+@media  (max-width: 667px){
+    .column-about{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .about-heading{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 7px 0 7px 0;
+    }
+    .main-text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .sub-text{
+       font-size: 15px;
+    }
+   
+   
+}
+@media  (max-width: 565px){
+    .main-text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .sub-text{
+       font-size: 10px;
+    }
+   
+}

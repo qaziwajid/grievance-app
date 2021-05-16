@@ -9,7 +9,7 @@ class LogosContent extends React.Component {
       renderImage=(val,key)=>{
           console.log('values passed',val,key);
         return(
-            <img src={val.name} alt='not found'></img>
+            <img className={val.id} src={val.name} alt='not found'></img>
         );
       };
     render() {

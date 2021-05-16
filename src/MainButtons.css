@@ -35,3 +35,9 @@
     cursor: pointer;
     background-color: #274472;
 }
+@media  (max-width: 767px){
+    
+   .buttons{
+       display: none;
+   }
+}
