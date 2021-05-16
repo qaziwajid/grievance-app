@@ -7,7 +7,7 @@
   .fixed{
     position: fixed;
   width: 93%;
-  left: 0;
+  left: 1%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
   }
