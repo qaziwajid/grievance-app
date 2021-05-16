@@ -44,8 +44,12 @@
 }
 .Footer-image img{
     margin-bottom: 20px;
-    padding-left: 2rem;
-    width: 100%;
+    /* padding-left: 2rem; */
+    padding:20px 0 0 0;
+    /* width: 100%; */
+}
+.Footer-image{
+    /* justify-self: center; */
 }
 .Footer-content a{
     color: #fff;
@@ -62,12 +66,14 @@
 @media  (max-width: 768px){
     .Footer-main{
         grid-template-columns:1fr;
-        
-       
     }
+   
 }
 @media  (max-width: 440px){
     .Footer-content{
         grid-template-columns: 1fr;
+    }
+    .Footer-image img{
+        width: 100%;
     }
 }

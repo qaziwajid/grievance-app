@@ -10,3 +10,10 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
   }
+  @media  (max-width: 900px){
+    .fixed{
+      position: unset;
+      width: unset;
+    }
+   
+}
