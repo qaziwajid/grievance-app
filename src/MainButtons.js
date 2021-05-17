@@ -21,14 +21,15 @@ class MainButtons extends React.Component{
         }
        else{
             return(
-                <div className={val.class}>
                 <Link to={val.ref}>
+                <div className={val.class}>
+                
                 <span className={val.Id}>{val.Name}
                   </span>
                 
-              </Link>
-              </div>
               
+              </div>
+              </Link>
           )
             
        }

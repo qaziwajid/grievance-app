@@ -6,6 +6,7 @@ import MainBody from './MainBody';
 import ContactHeader from './header';
 import InNews from './InNews';
 import Footer from './Footer';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import  RegesterForm  from './RegesterForm';
 import ContactHeaderContent from './ContactHeaderContent';
 import './body.css';
@@ -43,6 +44,7 @@ class Body extends React.Component {
                 <div className='fixed'>
                 <ContactHeader/>
                 <Logos/>
+                {/* <NavTogler/> */}
                 <NavBar/>
                 </div>
                 
