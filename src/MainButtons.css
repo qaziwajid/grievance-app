@@ -10,7 +10,7 @@
     background-color: #000000d1;
     /* display:none; */
 }
-.buttons a{
+.buttons div{
     padding: 10px;
     width:17%;
     border: none;
@@ -20,6 +20,10 @@
     text-align: center;
     text-decoration: none;
     
+}
+.buttons div a{
+    color: #fff;
+    text-decoration: none;
 }
 /* .Blue{
     background-color: #1a1af3;
@@ -33,7 +37,7 @@
     background-color: #d64741;
     box-shadow: 2px 2px 2px 2px #000000;
 } */
-.buttons a:hover{
+.buttons div:hover{
     cursor: pointer;
     background-color: #274472;
 }
@@ -44,7 +48,7 @@
        flex-direction: column;
        
    }
-   .buttons a{
+   .buttons div{
        width: auto;
        text-align: start;
        padding-left:20px;

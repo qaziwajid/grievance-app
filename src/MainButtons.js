@@ -12,18 +12,22 @@ class MainButtons extends React.Component{
         if(val.ref1)
         {
             return(
+                <div className={val.class}>
             <a href={val.ref1}> <span className={val.Id}>{val.Name}
                 </span>
                 </a>
+                </div>  
             )
         }
        else{
             return(
+                <div className={val.class}>
                 <Link to={val.ref}>
                 <span className={val.Id}>{val.Name}
                   </span>
-                 
+                
               </Link>
+              </div>
               
           )
             
@@ -38,6 +42,7 @@ class MainButtons extends React.Component{
                 <div className='buttons'> 
                
                     {this.props.Buttons.map((val,key)=>this.renderButton(val,key))}
+                    {/* {this.props.Button} */}
                  </div>
                 
             </div>

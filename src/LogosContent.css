@@ -11,6 +11,7 @@
     display: none;
     /* width: 80%; */
     /* margin: auto; */
+    background-color:rgb(49, 1, 139); 
 
 }
 .responsive-nav:hover{
@@ -29,14 +30,20 @@ cursor: pointer;
   background-color:rgb(49, 1, 139); 
   display: none;
 }
-
- 
+.hide{
+  display: none;
+}
+ .show{
+   display: block;
+ }
   @media  (max-width: 767px){
     
        .none{
           display: none;
        }
-      
+      .resp{
+        display: block;
+      }
        .logosContent{
          justify-content: space-around;
        }

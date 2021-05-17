@@ -22,7 +22,9 @@ class NavBarLink extends React.Component {
     
     render() {
         return (
-            <div className='nav-bar-link'>    {this.props.menus.map((val, key) => this.renderMenuItem(val, key))}</div>
+            <div className='nav-bar-link'>    
+            {this.props.menus.map((val, key) => this.renderMenuItem(val, key))}
+            </div>
         );
     }
 }

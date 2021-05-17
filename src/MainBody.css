@@ -112,7 +112,23 @@
       height: 90vh;
     }
     .text{
-        top: 50%;
+        top: 70%;
+    }
+   
+}
+@media  (max-width: 767px){
+    /* .main-text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .sub-text{
+       font-size: 10px;
+    } */
+    .Main-image{
+      height: 90vh;
+    }
+    .text{
+        top: 80%;
     }
    
 }
@@ -128,7 +144,7 @@
       height: 60vh;
     }
     .text{
-        top: 40%;
+        top: 83%;
     }
    
 }
@@ -144,7 +160,7 @@
       height: 50vh;
     }
     .text{
-        top: 40%;
+        top: 76%;
     }
    
 }
