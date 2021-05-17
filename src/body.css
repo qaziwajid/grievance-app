@@ -18,8 +18,8 @@
    
 }
 @media  (max-width: 767px){
-  /* .Body{
-   background-color: unset;
-  } */
+  .Body{
+   width: 100%;
+  }
  
 }
