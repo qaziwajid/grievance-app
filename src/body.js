@@ -10,6 +10,7 @@ import Footer from './Footer';
 import  RegesterForm  from './RegesterForm';
 import ContactHeaderContent from './ContactHeaderContent';
 import './body.css';
+import RegesterationFormMain from './RegestrationFormMain';
 class Body extends React.Component {
     constructor(props) {
         super(props);
@@ -51,6 +52,7 @@ class Body extends React.Component {
                  <Switch>
                 <Route path="/" exact component={MainBody}/>
                 <Route path="/RegesterForm" exact component={RegesterForm}/>
+                <Route path="/RegestrationFormMain" exact component={RegesterationFormMain}/>
                 </Switch>
                 <InNews InNews={this.state.InNews}/>
                 <Footer Footer={this.state.Footer}/>
