@@ -4,4 +4,8 @@
     background-color:#233858;
     margin: auto;
   }
- 
+  @media  (max-width: 440px){
+   .ContactHeader{
+     text-align: center;
+   }
+}

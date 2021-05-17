@@ -1,5 +1,6 @@
 import React from 'react';
-import LogosContent from './LogosContent'
+import LogosContent from './LogosContent';
+
 import './Logos.css';
 class Logos extends React.Component {
     constructor(props) {
@@ -15,7 +16,8 @@ class Logos extends React.Component {
                 // { id: 6, name: 'Download', active: false },
                 // { id: 7, name: 'NIRF', active: false },
                 // { id: 8, name: 'IQAC', active: false },
-              ]
+              ],
+            
         };
         
       }
@@ -23,6 +25,7 @@ class Logos extends React.Component {
         return (
             <div className='background-body'>
                 <LogosContent images={this.state.images} />
+               
                
             </div>
         )

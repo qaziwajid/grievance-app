@@ -2,8 +2,6 @@ import React from "react";
 import "./MainBody.css";
 // import MainButtons from "./MainButtons";
 import Features from './Features';
-import InNews from './InNews';
-import Footer from './Footer';
 class MainBody extends React.Component {
   constructor(props) {
     super(props);
@@ -20,23 +18,7 @@ class MainBody extends React.Component {
         {Id:'Transparency',Details:['Grievances Cannot be Deleted/tempered by anyone including the Admin','All the reports and Grievances are submitted to the Principal']
       } 
       ],
-      InNews:[
-        {Id:'//cusrinagar.edu.in',Link:"/images/cus.png"},
-        {Id:1,Link:"/images/ck.png"},
-        {Id:1,Link:"/images/dst.png"},
-        {Id:1,Link:"/images/jkhigher.png"},
-        {Id:1,Link:"/images/ku.png"},
-        {Id:1,Link:"/images/ugc.png"},
-        {Id:1,Link:"/images/iust.png"},
-        {Id:1,Link:"/images/psc.png"},
-      ],
-      Footer:[
-        // {Id:1,Name:'/images/Logo111.png'},
-        {Id:'Footer-headings',Name:'Important Links',Links:['> All College News','> Downloads','> College gallery','> Vision And Mission','> From Principals Desk','> About Us','> Contact Us','> All Notifications','> All Departments'
-      ,'> All Tenders']},
-        {Id:'Footer-headings' ,Name:'Social Presence',Links:['FaceBook','Instagram']},
-      
-      ]
+     
         
       }
     };
@@ -73,8 +55,7 @@ class MainBody extends React.Component {
           </div>
           <Features Features={this.state.Features}/>
         </div>
-        <InNews InNews={this.state.InNews}/>
-        <Footer Footer={this.state.Footer}/>
+    
       </div>
     );
   }

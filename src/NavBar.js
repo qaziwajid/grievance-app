@@ -18,12 +18,12 @@ class NavBar extends React.Component {
                 { id: 8, name: 'IQAC', active: false },
               ],
               Buttons:[
-                {Id:'Grey',Name:'Home'},
-                {Id:'Blue' ,Name:'Main Site',},
-                {Id:'Black',Name:'Post Grievance'},
-                {Id:'Grey',Name:'Track Grievance'},
-                {Id:'Black',Name:'Department Login'},
-                {Id:'Blue' ,Name:'Contact Us',},
+                {Id:'Grey',Name:'Home',ref:'/'},
+                {Id:'Blue' ,Name:'Main Site',ref1:'///spcollege.edu.in/'},
+                {Id:'Black',Name:'Post Grievance',ref:'/RegesterForm'},
+                {Id:'Grey',Name:'Track Grievance',ref:'/RegesterForm'},
+                {Id:'Black',Name:'Department Login',ref:'/RegesterForm'},
+                {Id:'Blue' ,Name:'Contact Us',ref:'/RegesterForm'},
                
                 
                

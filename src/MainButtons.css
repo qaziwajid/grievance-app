@@ -8,8 +8,9 @@
     /* padding: 10px; */
     z-index: 1;
     background-color: #000000d1;
+    /* display:none; */
 }
-.buttons span{
+.buttons a{
     padding: 10px;
     width:17%;
     border: none;
@@ -17,6 +18,7 @@
     transition: all .4s;
     font-weight: 700;
     text-align: center;
+    text-decoration: none;
     
 }
 /* .Blue{
@@ -31,13 +33,21 @@
     background-color: #d64741;
     box-shadow: 2px 2px 2px 2px #000000;
 } */
-.buttons span:hover{
+.buttons a:hover{
     cursor: pointer;
     background-color: #274472;
 }
+
 @media  (max-width: 767px){
     
    .buttons{
-       display: none;
+       flex-direction: column;
+       
    }
+   .buttons a{
+       width: auto;
+       text-align: start;
+       padding-left:20px;
+   }
+  
 }
