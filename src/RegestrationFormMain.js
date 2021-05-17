@@ -50,15 +50,46 @@ class RegestrationFormMain extends React.Component{
                 <Form.Control type="Text" placeholder="D. O.B" />
               </Form.Group>
             </Form.Row>
+          </Form>
+          </div>
+
+
+
+                          {/* Basic Detaila */}
+
+
+
+          <div id="ContentPlaceHolder1_dvOTP" class="col-lg-12 box-container">
+                         <div class="box-heading">
+                             <h4 class="box-title register-num">Grievance Details</h4>
+                        </div>
+                        
+            </div>
+            <div className='form-body'>
+            <Form>
+            <Form.Row>
+             
+          
+              <Form.Group as={Col} controlId="formGridGender">
+                 <Form.Label>Grievance Details</Form.Label>
+                    <Form.Control as="TextArea" controlId="formGridGrievanceDetails">
+                     </Form.Control>
+                </Form.Group>
+   
+            </Form.Row>
           <Form.Row>
     
-          <Form.Group  controlId="formGridSubmit">
-            <Button variant="primary" size="md" block>
-               Submit
-             </Button>
-              </Form.Group>
+          <Form.Group>
+        <Form.Check
+          required
+          label="Agree to terms and conditions"
+          feedback="You must agree before submitting."
+        />
+      </Form.Group>
+     
+              
           </Form.Row>
-         
+          <Button type="submit">Submit form</Button>
           </Form>
           </div>
           </div>
