@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import MainBody from './MainBody';
 import ContactHeader from './header';
 import InNews from './InNews';
+import NavTogler from './NavTogler';
 import Footer from './Footer';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import  RegesterForm  from './RegesterForm';
@@ -45,8 +46,8 @@ class Body extends React.Component {
                 <div className='fixed'>
                 <ContactHeader/>
                 <Logos/>
-                {/* <NavTogler/> */}
-                <NavBar/>
+                <NavTogler/>
+                {/* <NavBar/> */}
                 </div>
                 
                  <Switch>

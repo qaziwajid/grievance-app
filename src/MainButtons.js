@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import './MainButtons.css';
+import Nav from 'react-bootstrap/Nav';
 class MainButtons extends React.Component{
     constructor(props){
         super(props);
@@ -12,23 +13,25 @@ class MainButtons extends React.Component{
         if(val.ref1)
         {
             return(
-                <div className={val.class}>
-            <a href={val.ref1}> <span className={val.Id}>{val.Name}
-                </span>
-                </a>
-                </div>  
+                // <div className={val.class}>
+                <Nav.Link href={val.ref1}>{val.Name}</Nav.Link>
+                // </span>
+                // </a>
+                // </div>  
+                
             )
         }
        else{
             return(
                 <Link to={val.ref}>
-                <div className={val.class}>
-                
-                <span className={val.Id}>{val.Name}
-                  </span>
+                {/* <div className={val.class}> */}
+                <Nav>{val.Name}</Nav>
+                {/* <Nav.Link href="#features">Features</Nav.Link> */}
+                {/* <span className={val.Id}>{val.Name} */}
+                  {/* </span> */}
                 
               
-              </div>
+              {/* </div> */}
               </Link>
           )
             

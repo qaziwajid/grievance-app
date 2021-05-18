@@ -1,16 +1,16 @@
 .buttons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: relative;
     /* width: 90%; */
     /* left: 10%; */
     /* top: 23%; */
     /* padding: 10px; */
     z-index: 1;
-    background-color: #000000d1;
+    /* background-color: #000000d1; */
     /* display:none; */
 }
-.buttons div{
+.buttons div , .navbar-dark .navbar-nav .nav-link{
     padding: 10px;
     /* width:17%; */
     border: none;
@@ -38,16 +38,16 @@
     box-shadow: 2px 2px 2px 2px #000000;
 } */
 .buttons a:hover{
-    /* cursor: pointer;
-    background-color: #274472; */
-    text-decoration: none;
+    cursor: pointer;
+    background-color: #274472; 
+     text-decoration: none;
     color: #fff;
 }
-.buttons div:hover{
+/* .buttons div:hover{
     cursor: pointer;
     background-color: #274472;
     text-decoration: none;
-}
+} */
 
 @media  (max-width: 767px){
     

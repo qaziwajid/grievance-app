@@ -1,44 +1,52 @@
-// import React, { useState } from 'react';
-// // require("react-bootstrap/lib/NavbarHeader");
-// // import React from './React';
-// // import {
-// //   MDBNavbar,
-// //   MDBContainer,
-// //   MDBIcon,
-// //   MDBNavbarNav,
-// //   MDBNavbarItem,
-// //   MDBNavbarLink,
-// //   MDBNavbarToggler,
-// //   MDBNavbarBrand,
-// //   MDBCollapse
-// // } 
 
-//  export default function NavTogler() {
-  
+import React from 'react'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import MainButtons from './MainButtons';
+class NavTogler extends React.Component{
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+            menus: [
+                { id: 1, name: 'Home', active: true },
+                { id: 2, name: 'About us', active: false },
+                { id: 3, name: 'Admissions', active: false },
+                { id: 4, name: 'Grievances', active: false },
+                { id: 5, name: 'Departments', active: false },
+                { id: 6, name: 'Download', active: false },
+                { id: 7, name: 'NIRF', active: false },
+                { id: 8, name: 'IQAC', active: false },
+              ],
+              Buttons:[
+                {Id:'Grey',Name:'Home',ref:'/'},
+                {Id:'Blue' ,Name:'Main Site',ref1:'///spcollege.edu.in/'},
+                {Id:'Black',Name:'Post Grievance',ref:'/RegesterForm'},
+                {Id:'Grey',Name:'Track Grievance',ref:'/RegesterForm'},
+                {Id:'Black',Name:'Department Login',ref:'/RegesterForm'},
+                {Id:'Blue' ,Name:'Contact Us',ref:'/RegesterForm'},
+               
+                
+               
 
-//   return (
-//     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-//     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-//     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-//     <Navbar.Collapse id="responsive-navbar-nav">
-//       <Nav className="mr-auto">
-//         <Nav.Link href="#features">Features</Nav.Link>
-//         <Nav.Link href="#pricing">Pricing</Nav.Link>
-//         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-//           <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//           <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-//           <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//           <NavDropdown.Divider />
-//           <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-//         </NavDropdown>
-//       </Nav>
-//       <Nav>
-//         <Nav.Link href="#deets">More deets</Nav.Link>
-//         <Nav.Link eventKey={2} href="#memes">
-//           Dank memes
-//         </Nav.Link>
-//       </Nav>
-//     </Navbar.Collapse>
-//   </Navbar>
-//   )
-// }
+            ]
+        };
+        
+      }
+    render(){
+        return(
+    
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="mr-auto">
+    <MainButtons Buttons={this.state.Buttons}/>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
+
+        )
+    }
+}
+export default NavTogler;
