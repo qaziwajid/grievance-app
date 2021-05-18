@@ -23,34 +23,31 @@ class RegestrationFormMain extends React.Component{
                         
             </div>
             <div className='form-body'>
-            <Form>
-            <Form.Row>
-              <Form.Group as={Col} controlId="formGridName">
-                <Form.Label>Applicant Name</Form.Label>
-                <Form.Control type="text" placeholder="Applicant Name" />
-              </Form.Group>
-          
-              <Form.Group as={Col} controlId="formGridGender">
-      <Form.Label>Gender</Form.Label>
-      <Form.Control as="select" defaultValue="Choose...">
+              <form>
+                <div class="form-row">
+                 <div class="form-group col-lg-3">
+                   <label  class="col-lg-3 col-form-label"> Name</label>
+                   <input type="text" placeholder="Applicant Name" class="form-control" />
+                 </div>
+                 
+                 <div class="form-group col-lg-3"> 
+                 <label  class="col-lg-3 col-form-label">Gender</label>
+      <select class="form-control">
         <option>Female</option>
         <option>Male</option>
-      </Form.Control>
-    </Form.Group>
-    <Form.Group as={Col} controlId="formGridNo">
-                <Form.Label>Mobile No.</Form.Label>
-                <Form.Control type="text" placeholder="Mobile NO" />
-              </Form.Group>
-              <Form.Group as={Col} controlId="formGridEmail">
-                <Form.Label>Email Id</Form.Label>
-                <Form.Control type="email" placeholder="Email Id" />
-              </Form.Group>
-              <Form.Group as={Col} controlId="formGridDOB">
-                <Form.Label>D. O. B</Form.Label>
-                <Form.Control type="Text" placeholder="D. O.B" />
-              </Form.Group>
-            </Form.Row>
-          </Form>
+        </select>
+     </div>
+     <div class="form-group col-lg-3">
+      <label >Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"/>
+    </div>
+    <div class="form-group col-lg-3">
+      <label >D.O.B</label>
+      <input type="date" class="form-control" id="inputDOB" placeholder="D.O.B"/>
+    </div>
+                </div>
+              </form>
+         
           </div>
 
 
