@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router ,Switch,Route} from 'react-router-dom';
 import Logos from './Logos';
-import NavBar from './NavBar';
+// import NavBar from './NavBar';
 import MainBody from './MainBody';
 import ContactHeader from './header';
 import InNews from './InNews';
