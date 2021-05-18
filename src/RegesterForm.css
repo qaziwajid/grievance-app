@@ -23,8 +23,9 @@
 .alignh2 {
     position: relative;
     top: 20px;
+    text-align: center;
     background-color: #f9f9f9;
-    width: 350px;
+    max-width: 335px;
     margin: 0 auto 0 auto;
 }
 .box-container > .box-heading {
@@ -52,4 +53,9 @@ Link:hover{
 }
 .width-100{
     width: 108px;
+}
+@media  (max-width: 565px){
+.alignh2{
+    font-size: 1.7rem !important;
+}
 }
