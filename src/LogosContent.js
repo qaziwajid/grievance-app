@@ -1,5 +1,5 @@
 import React from 'react';
-import ResponsiveNav from './ResponsiveNav';
+// import ResponsiveNav from './ResponsiveNav';
 // import MainButtons from './MainButtons';
 import './LogosContent.css';
 class LogosContent extends React.Component {
@@ -26,7 +26,7 @@ class LogosContent extends React.Component {
                 {this.props.images.map((val,key)=>this.renderImage(val,key))}
                
               
-                <ResponsiveNav   />
+                {/* <ResponsiveNav   /> */}
               
               
                 
