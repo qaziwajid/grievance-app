@@ -21,8 +21,8 @@
     text-decoration: none;
     
 }
-.buttons  a{
-    color: #fff;
+.buttons  a ,.navbar-dark .navbar-nav .nav-link{
+    color: #fff !important;
     text-decoration: none;
 }
 /* .Blue{
@@ -48,6 +48,21 @@
     background-color: #274472;
     text-decoration: none;
 } */
+.navbar-toggler{
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+}
+
+.navbar {
+    /* position: absolute !important; */
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 93% !important; */
+    align-items: center;
+    justify-content: space-between;
+    padding: .12rem 1rem !important;
+    z-index: 1000;
+}
 
 @media  (max-width: 767px){
     
@@ -60,7 +75,7 @@
        text-align: start;
        padding-left:20px;
    }
-   .buttons div{
+   .buttons div , .navbar-dark .navbar-nav .nav-link{
     width: auto;
     text-align: start;
     padding-left:20px;

@@ -13,10 +13,11 @@ class MainButtons extends React.Component{
         if(val.ref1)
         {
             return(
-                // <div className={val.class}>
-                <Nav.Link href={val.ref1}>{val.Name}</Nav.Link>
-                // </span>
-                // </a>
+                <a href={val.ref1}>
+                {/* <div className={val.class}> */}
+                <Nav href={val.ref1}>{val.Name}</Nav>
+                 {/* </span> */}
+                </a>
                 // </div>  
                 
             )
