@@ -9,6 +9,7 @@ import NavTogler from './NavTogler';
 import Footer from './Footer';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import  RegesterForm  from './RegesterForm';
+import  TrackGrievance  from './TrackGrievance';
 import ContactHeaderContent from './ContactHeaderContent';
 import './body.css';
 import RegesterationFormMain from './RegestrationFormMain';
@@ -53,6 +54,7 @@ class Body extends React.Component {
                  <Switch>
                 <Route path="/" exact component={MainBody}/>
                 <Route path="/RegesterForm" exact component={RegesterForm}/>
+                <Route path="/TrackGrievance" exact component={TrackGrievance}/>
                 <Route path="/RegestrationFormMain" exact component={RegesterationFormMain}/>
                 </Switch>
                 <InNews InNews={this.state.InNews}/>

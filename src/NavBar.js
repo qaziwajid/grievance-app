@@ -21,7 +21,7 @@ class NavBar extends React.Component {
                 {Id:'Grey',Name:'Home',ref:'/'},
                 {Id:'Blue' ,Name:'Main Site',ref1:'///spcollege.edu.in/'},
                 {Id:'Black',Name:'Post Grievance',ref:'/RegesterForm'},
-                {Id:'Grey',Name:'Track Grievance',ref:'/RegesterForm'},
+                {Id:'Grey',Name:'Track Grievance',ref:'/TrackGrievance'},
                 {Id:'Black',Name:'Department Login',ref:'/RegesterForm'},
                 {Id:'Blue' ,Name:'Contact Us',ref:'/RegesterForm'},
                

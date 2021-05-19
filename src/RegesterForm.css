@@ -52,8 +52,11 @@ Link:hover{
     text-decoration: none;
 }
 .width-100{
-    width: 108px;
+    width: 115px;
 }
+/* button{
+    width:100% !important;
+} */
 @media  (max-width: 565px){
 .alignh2{
     font-size: 1.7rem !important;
