@@ -15,7 +15,7 @@ class MainButtons extends React.Component{
             return(
                 <a href={val.ref1}>
                 {/* <div className={val.class}> */}
-                <Nav href={val.ref1}>{val.Name}</Nav>
+                <Nav.Link href={val.ref1}>{val.Name}</Nav.Link>
                  {/* </span> */}
                 </a>
                 // </div>  
@@ -26,7 +26,7 @@ class MainButtons extends React.Component{
             return(
                 <Link to={val.ref}>
                 {/* <div className={val.class}> */}
-                <Nav>{val.Name}</Nav>
+                <Nav.Link href={val.ref}>{val.Name}</Nav.Link>
                 {/* <Nav.Link href="#features">Features</Nav.Link> */}
                 {/* <span className={val.Id}>{val.Name} */}
                   {/* </span> */}
