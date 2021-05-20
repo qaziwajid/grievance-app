@@ -1,6 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import './MainButtons.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 import Nav from 'react-bootstrap/Nav';
 class MainButtons extends React.Component{
     constructor(props){
@@ -9,6 +12,8 @@ class MainButtons extends React.Component{
          
         };
     }
+   
+
     renderButton=(val,key)=>{
         if(val.ref1)
         {
@@ -17,6 +22,7 @@ class MainButtons extends React.Component{
                 {/* <div className={val.class}> */}
                 <Nav.Link href={val.ref1}>{val.Name}</Nav.Link>
                  {/* </span> */}
+                 
                 </a>
                 // </div>  
                 
@@ -24,9 +30,11 @@ class MainButtons extends React.Component{
         }
        else{
             return(
+                
                 <Link to={val.ref}>
+                   
                 {/* <div className={val.class}> */}
-                <Nav.Link href={val.ref}>{val.Name}</Nav.Link>
+                <Nav.Link href={val.ref}><FontAwesomeIcon icon="coffee" color="white" />{val.Name}</Nav.Link>
                 {/* <Nav.Link href="#features">Features</Nav.Link> */}
                 {/* <span className={val.Id}>{val.Name} */}
                   {/* </span> */}
