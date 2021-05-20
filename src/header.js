@@ -6,14 +6,15 @@ import "./ContactHeader.css"
 class ContactHeader extends React.Component {
 constructor(props) {
     super(props);
+ 
     this.state ={
         items: [
-            { id: 1, name: 'Thursday, May 6 2021'},
+            { id: 1, name:Date().toLocaleString()},
             { id: 2, name: '94190-234234 | SPCollege123@gmail.com' },
         ]
     };
     }
-
+   
  render() {
      return (
          

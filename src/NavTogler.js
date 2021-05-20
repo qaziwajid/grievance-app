@@ -24,7 +24,7 @@ class NavTogler extends React.Component{
                 {Id:'Black',Name:'Post Grievance',ref:'/RegesterForm'},
                 {Id:'Grey',Name:'Track Grievance',ref:'/TrackGrievance'},
                 {Id:'Black',Name:'Department Login',ref:'/RegesterForm'},
-                {Id:'Blue' ,Name:'Contact Us',ref:'/RegesterForm'},
+                {Id:'Blue' ,Name:'Contact Us',ref:'https://spcollege.edu.in/contact-us'},
                
                 
                
