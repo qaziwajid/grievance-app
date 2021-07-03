@@ -2,6 +2,9 @@
   margin:0;
   padding:0;
 }
+#g-recaptcha{
+  height: 93px;
+}
 body {
   font: 400 13px/21px 'Open Sans', Arial, Helvetica, sans-serif;
 font-style: normal;

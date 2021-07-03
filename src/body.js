@@ -18,7 +18,7 @@ class Body extends React.Component {
         super(props);
         this.state ={
             items: [
-                { id: 1, name: 'Copyright@2021 All Rights Reserved'},
+                { id: 1, name: 'Copyright © '+ new Date().getFullYear()+ ' All Rights Reserved'},
                 { id: 2, name: 'Designed and Developed by Department of I.T S.P College' },
             ],
             InNews:[

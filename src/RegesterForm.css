@@ -54,6 +54,9 @@ Link:hover{
 .width-100{
     width: 115px;
 }
+.sizerecaptcha{
+    width: 20px;
+}
 /* button{
     width:100% !important;
 } */
